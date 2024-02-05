@@ -1,0 +1,110 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Adarsh Badoni} \\
+\indent Email-id : \textbf{\url{Adarshbadoni109@gmail.com}} \\
+\indent Mobile No : \textbf{9456764257}, \ \\
+\indent Linkedin :
+\textbf{\url{https://www.linkedin.com/in/adarsh-badoni-78b2b3217}} \\
+\indent GitHub :
+\textbf{\url{https://github.com/ADARSHBADONI}}\\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \rule{6.8in}{0.4pt}\\
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} }
+\noindent \textbf{Year} & \textbf{Degree/Exam} & \textbf{Institute} & \textbf{GPA/Marks(\%)}\\
+2020 - Present & B.TECH in Computer Science & Graphic Era Hill University Dehradun & 8.06/10.00 \\
+2020 & C.B.S.E & D.A.V Public School Dehradun & 78.40 \% \\
+2018 & C.B.S.E & D.A.V Public School Dehradun & 71.20 \%\\
+
+\end{tabular}
+
+\indent \rule{6.8in}{0.4pt}
+%\end{center}
+%\end{table}
+\\
+
+
+\resheading{\textbf{INTERNSHIPS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.5em}
+\item \textbf{Web Development Intern (Aug ’23 ‐ Sep’23) ICT Academy :
+} Learned about HTML CSS and JavaScript via
+live bootcamps. Making required changes given as assessments in project. Developed a capstone project.  
+\end{itemize}
+
+\resheading{\textbf{PROJECTS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.5em}
+\item \textbf{Student report card management system} (Developed in 2021) : This project helps to manage student's records like Name, Roll no, Grade, Marks, etc. In this project, we can also search or delete a particular student Record. The programming language used C++.
+\item \textbf{Text To Voice Converter} (Developed in 2021) : This project is used to convert entered text into Voice. The programming languages used are HTML CSS and Javascript. Users can enter the text in the text area and click the speak button to convert it into voice.
+\item \textbf{Movie Recommendation System} (Developed in 2022) : This project is used to recommend movies based on content filtering techniques to the user. Users have to select the movie according to which the movie will be recommended to them. The programming language used- python.
+\item \textbf{Image classification for determining age and gender } (Developed in 2023) : A gender and age segmentation project attempts to create a machine learning system that can precisely determine a person's age and gender based on their face photos. The technology is intended to be simple to use and rapid for handling massive volumes of data.
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \noindent \textbf{Languages} : \textbf{C}, \textbf{C++} ,\textbf{Python},\textbf{Javascript} , \textbf{HTML}, \textbf{SQL} .\\
+ \item \noindent\textbf{Operating system} Windows, Linux.\\
+\item \noindent \textbf{Software}  Eclipse, GitHub, Visual studio, dev C++,Pycharm .
+\end{itemize}
+
+
+\resheading{\textbf{CERTIFICATIONS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \noindent  \textbf {Robotics Process Automation} (Automation Anywhere 2020) :
+ Learned to Automate streamline processes.Created a bot using automation anywhere.\\
+ \item \noindent\textbf{Introduction to Cybersecurity} (IBM SkillsBuild 2021) : Learned about various cybersecurity Fundamentals (OSI). Various encryption techniques (Symmetric and Asymmetric).\\
+\item \noindent \textbf{Networking Essentials} (Cisco 2023) : Successfully completed a comprehensive Networking Essentials course on Cisco, acquiring knowledge in foundational networking concepts, protocols, and technologies
+\end{itemize}
+
+\resheading{\textbf{STRENGTHS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \noindent  \textbf Good Listener , Goal Oriented , Team Player.
+\end{itemize}
+
+\end{document}
